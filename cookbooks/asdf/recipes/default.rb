@@ -6,4 +6,11 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+package "tmux"
+
+rs_utils_marker :begin
+
 log "Hi."
+
+rs_utils_marker :end
