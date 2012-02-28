@@ -5,6 +5,23 @@
   "name": "asdf",
   "maintainer_email": "jaugros@ctepl.com",
   "attributes": {
+    "asdf/custom_input": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+        "A",
+        "B",
+        "C"
+      ],
+      "type": "string",
+      "recipe": [
+        "asdf::default"
+      ],
+      "recipes": [
+
+      ],
+      "display_name": "A custom chef input"
+    }
   },
   "license": "All rights reserved",
   "suggestions": {

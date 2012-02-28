@@ -8,3 +8,9 @@ version          "0.0.1"
 depends "rs_utils"
 
 recipe "asdf::default", "Prints a message to the output"
+
+attribute "asdf/custom_input",
+:display_name => "A custom chef input",
+:choice => ["A", "B", "C"],
+:recipe => ["asdf::default"],
+:required => "required"

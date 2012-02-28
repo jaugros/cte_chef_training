@@ -7,10 +7,15 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package "tmux"
-
 rs_utils_marker :begin
 
+
+package "tmux"
+
+
 log "Hi."
+
+
+log "The input from the dashboard is #{node[:asdf][:custom_input]}"
 
 rs_utils_marker :end
